@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+#confirm2{
+    margin-top: 10px;
+    padding-left: 2%;
+    margin-left: 10px;
+    padding-right: 2%;
+    background-color: red ;
+    color: rgb(245, 237, 237) ;
+    &:hover,
+    &:focus {
+      font-size: 14.5px;
+        // border-radius: 10px;
+        // filter:brightness(110%);
+         background-color: rgb(247, 80, 80);
+        // color: black;
+    }
+}
+#confirm1 {
+    margin-top: 10px;
+    color: white !important ;
+    margin-left: 10px;
+
+    background-color: #0bb21b ;
+padding-left: 2%;
+padding-right: 2%;    // margin-left: 130px;
+    // color: white ;
+    &:hover,
+    &:focus {
+        // border-radius: 10px;
+        // filter:brightness(110%);
+         background-color: rgb(97, 240, 133);
+        font-size: 14.5px;
+        
+    }
+}
